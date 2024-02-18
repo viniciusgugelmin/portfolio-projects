@@ -1,0 +1,12 @@
+:root {
+    --vkg-background: #c5c5c5;
+    --vkg-calculator-background: #000;
+    --vkg-display-color: #fff;
+    --vkg-key-background: #333;
+    --vkg-key-color: #fff;
+    --vkg-key-background-hover: #666;
+    --vkg-operator-background: #ff9f0a;
+    --vkg-operator-color: #fff;
+    --vkg-top-operator-background: #A5A5A5;
+    --vkg-top-operator-color: #000;
+}

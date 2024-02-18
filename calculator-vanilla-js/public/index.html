@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Vanilla JS</title>
+</head>
+<body>
+<section id="app" style="display: none">
+    <div class="vkg-calculator">
+        <div class="vkg-calculator-display">
+            <div class="vkg-calculator-display__history">
+                <span class="vkg-calculator-display__history-value" data-history="true"></span>
+            </div>
+            <div class="vkg-calculator-display__result">
+                <span class="vkg-calculator-display__result-value" data-display="true"></span>
+            </div>
+        </div>
+        <div class="vkg-calculator__keys">
+            <button
+                    class="vkg-calculator__key vkg-calculator__key--gray"
+                    data-key="true"
+                    data-action="clear"
+            >
+                AC
+            </button>
+            <button
+                    class="vkg-calculator__key vkg-calculator__key--gray"
+                    data-key="true"
+                    data-action="change-signal"
+            >
+                ±
+            </button>
+            <button
+                    class="vkg-calculator__key vkg-calculator__key--gray"
+                    data-key="true"
+                    data-action="operator"
+                    data-value="%"
+            >%
+            </button>
+            <button
+                    class="vkg-calculator__key vkg-calculator__key--orange"
+                    data-key="true"
+                    data-action="operator"
+                    data-value="/"
+            >
+                ÷
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="7"
+            >
+                7
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="8"
+            >
+                8
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="9"
+            >
+                9
+            </button>
+            <button class="vkg-calculator__key vkg-calculator__key--orange"
+                    data-key="true"
+                    data-action="operator"
+                    data-value="*"
+            >
+                ×
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="4"
+            >
+                4
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="5"
+            >
+                5
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="6"
+            >
+                6
+            </button>
+            <button
+                    class="vkg-calculator__key vkg-calculator__key--orange"
+                    data-key="true"
+                    data-action="operator"
+                    data-value="-"
+            >
+                -
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="1"
+            >
+                1
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="2"
+            >
+                2
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="3"
+            >
+                3
+            </button>
+            <button
+                    class="vkg-calculator__key vkg-calculator__key--orange"
+                    data-key="true"
+                    data-action="operator"
+                    data-value="+"
+            >
+                +
+            </button>
+            <button
+                    class="vkg-calculator__key vkg-calculator__key--double"
+                    data-key="true"
+                    data-value="0"
+            >
+                0
+            </button>
+            <button
+                    class="vkg-calculator__key"
+                    data-key="true"
+                    data-value="."
+            >
+                .
+            </button>
+            <button
+                    class="vkg-calculator__key vkg-calculator__key--orange"
+                    data-key="true"
+                    data-action="calculate"
+            >
+                =
+            </button>
+        </div>
+    </div>
+</section>
+<script src="../src/app.js" type="module"></script>
+</body>
+</html>

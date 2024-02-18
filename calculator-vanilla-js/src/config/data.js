@@ -1,0 +1,3 @@
+const history = [];
+
+export {history}

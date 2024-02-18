@@ -1,0 +1,16 @@
+@import "../src/assets/normalize.css";
+@import "../src/assets/colors.css";
+
+@import "../src/assets/components/calculator-display.css";
+@import "../src/assets/components/calculator.css";
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex !important;
+    background: var(--vkg-background);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
