@@ -1,0 +1,25 @@
+.vkg-color-flipper {
+    width: 100%;
+}
+
+.vkg-color-flipper__input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.vkg-color-flipper__input-container label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s linear;
+}
+
+.vkg-color-flipper__input-container label * {
+    font-size: 1.5rem;
+    font-weight: 600;
+}

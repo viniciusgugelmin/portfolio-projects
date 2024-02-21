@@ -1,6 +1,8 @@
 @import "../src/assets/normalize.css";
 @import "../src/assets/colors.css";
 
+@import "../src/assets/components/color-flipper.css";
+
 * {
     box-sizing: border-box;
 }

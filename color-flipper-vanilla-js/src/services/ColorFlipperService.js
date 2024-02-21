@@ -17,6 +17,17 @@ class ColorFlipperService {
         this.execute();
     }
 
+    changeBackgroundColor(isLight) {
+        if (isLight) {
+            this.app.style.color = "white";
+            this.colorInput.labels[0].style.backgroundColor = "black";
+            return;
+        }
+
+        this.app.style.color = "black";
+        this.colorInput.labels[0].style.backgroundColor = "white";
+    }
+
     execute() {
         const color = this.colorInput.value;
 
@@ -26,14 +37,10 @@ class ColorFlipperService {
         const isLight = luminance > 0.35;
 
         this.colorValue.textContent = color;
+        this.colorValue.style.color = color;
         this.app.style.backgroundColor = color;
 
-        if (isLight) {
-            this.app.style.color = "black";
-            return;
-        }
-
-        this.app.style.color = "white";
+        this.changeBackgroundColor(isLight);
     }
 }
 
