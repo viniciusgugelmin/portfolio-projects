@@ -1,0 +1,13 @@
+@import "../src/assets/normalize.css";
+@import "../src/assets/colors.css";
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex !important;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.3s linear, background-color 0.3s linear;
+}
