@@ -1,0 +1,15 @@
+@import "../src/assets/normalize.css";
+@import "../src/assets/colors.css";
+
+@import "../src/assets/components/counter.css";
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex !important;
+    min-height: 100vh;
+    background: var(--vkg-background);
+    font-family: 'Roboto', sans-serif;
+}

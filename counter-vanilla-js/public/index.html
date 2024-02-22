@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Vanilla JS</title>
+</head>
+<body>
+<section id="app" style="display: none">
+    <div class="vkg-counter">
+        <div class="vkg-counter__controls">
+            <button id="add-counter" class="vkg-counter__button">+</button>
+            <button id="see-db" class="vkg-counter__button">show</button>
+        </div>
+        <div id="counters" class="vkg-counter__displays">
+            <div id="base-counter" class="vkg-counter__container" data-counter-id="0" style="display: none">
+                <h1 class="vkg-counter__title" data-counter-attr="title">Counter -&nbsp;</h1>
+                <div class="vkg-counter__value" data-counter-attr="value">0</div>
+                <div class="vkg-counter__buttons">
+                    <button class="vkg-counter__button vkg-counter__button--decrement" data-counter-attr="decrease">-</button>
+                    <button class="vkg-counter__button vkg-counter__button--increment" data-counter-attr="increase">+</button>
+                    <button class="vkg-counter__button vkg-counter__button--delete" data-counter-attr="delete">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="../src/app.js" type="module"></script>
+</body>
+</html>
