@@ -1,0 +1,10 @@
+:root {
+    --vkg-background: #fffcbc;
+    --vkg-clock: #e6e6e6;
+    --vkg-clock-border: #000;
+    --vkg-center: #b50c0c;
+    --vkg-center-border: #000;
+    --vkg-number: #000;
+    --vkg-pointer: #000;
+    --vkg-clock-timer: #ffffff;
+}
